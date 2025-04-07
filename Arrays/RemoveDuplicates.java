@@ -1,9 +1,12 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class RemoveDuplicates {
     public static void main(String[] args) {
         int[] nums = {1,1,2,3,4,4,4,5};
         System.out.println(removeDuplicates(nums));
+
     }
     static int removeDuplicates(int[] nums) {
         int index = 1;

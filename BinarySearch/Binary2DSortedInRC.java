@@ -3,7 +3,7 @@ package BinarySearch;
 public class Binary2DSortedInRC {
     public static void main(String[] args) {
         int[][] matrix = {
-                {-1,-1},
+                {-1,-1}
         };
         int target = -2;
         Binary2DSortedInRC bs = new Binary2DSortedInRC();

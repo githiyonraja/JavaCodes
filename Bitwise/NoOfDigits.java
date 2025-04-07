@@ -8,6 +8,6 @@ public class NoOfDigits{
             }
         
             private static int noOfDigits(int n, int b) {                
-                return (int) (Math.log(n)/Math.log(b)) + 1;
+                return (int) (Math.log10(n)) + 1;
             }
 }
