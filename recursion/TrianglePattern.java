@@ -3,7 +3,7 @@ package recursion;
 public class TrianglePattern {
     public static void main(String[] args) {
         //pattern1(4,0);
-        pattern2(4,4);
+        pattern2(5,5);
     }
 
     static void pattern1(int r, int c){
@@ -25,7 +25,7 @@ public class TrianglePattern {
         }
         if(r>c){
             pattern2(r,c+1);
-            System.out.print("*");
+            System.out.print(" * ");
         }else{
             pattern2(r-1,0);
             System.out.println();
