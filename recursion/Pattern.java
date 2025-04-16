@@ -3,6 +3,7 @@ package recursion;
 public class Pattern {
     public static void main(String[] args) {
         pattern4rec(5,0);
+
     }
 
     static void pattern1(int n){
